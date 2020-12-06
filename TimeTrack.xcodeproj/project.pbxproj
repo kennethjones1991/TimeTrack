@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		61BA8EA02575865400022F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8E9F2575865400022F3D /* AppDelegate.swift */; };
 		61BA8EA22575865400022F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8EA12575865400022F3D /* SceneDelegate.swift */; };
-		61BA8EA42575865400022F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8EA32575865400022F3D /* ViewController.swift */; };
 		61BA8EA72575865400022F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BA8EA52575865400022F3D /* Main.storyboard */; };
 		61BA8EA92575865700022F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BA8EA82575865700022F3D /* Assets.xcassets */; };
 		61BA8EAC2575865700022F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BA8EAA2575865700022F3D /* LaunchScreen.storyboard */; };
+		61BA8F43257CDAA000022F3D /* Track.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F41257CDAA000022F3D /* Track.xcdatamodeld */; };
+		61BA8F46257CDB3400022F3D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F45257CDB3400022F3D /* CoreDataStack.swift */; };
+		61BA8F49257CDB6800022F3D /* ActivityRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F48257CDB6800022F3D /* ActivityRepresentation.swift */; };
+		61BA8F4C257CDB7500022F3D /* DailyRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F4B257CDB7500022F3D /* DailyRepresentation.swift */; };
+		61BA8F4F257CDBE200022F3D /* Activity+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F4E257CDBE200022F3D /* Activity+Convenience.swift */; };
+		61BA8F52257CDBF100022F3D /* Daily+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F51257CDBF100022F3D /* Daily+Convenience.swift */; };
+		61BA8F5B257CE3AB00022F3D /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F5A257CE3AB00022F3D /* ActivityTableViewController.swift */; };
+		61BA8F5E257CE3BA00022F3D /* DailyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F5D257CE3BA00022F3D /* DailyTableViewController.swift */; };
+		61BA8F61257CE3D400022F3D /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA8F60257CE3D400022F3D /* NotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61BA8E9C2575865400022F3D /* TimeTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BA8E9F2575865400022F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61BA8EA12575865400022F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61BA8EA32575865400022F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61BA8EA62575865400022F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61BA8EA82575865700022F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61BA8EAB2575865700022F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61BA8EAD2575865700022F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61BA8F42257CDAA000022F3D /* Track.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Track.xcdatamodel; sourceTree = "<group>"; };
+		61BA8F45257CDB3400022F3D /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		61BA8F48257CDB6800022F3D /* ActivityRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRepresentation.swift; sourceTree = "<group>"; };
+		61BA8F4B257CDB7500022F3D /* DailyRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRepresentation.swift; sourceTree = "<group>"; };
+		61BA8F4E257CDBE200022F3D /* Activity+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+Convenience.swift"; sourceTree = "<group>"; };
+		61BA8F51257CDBF100022F3D /* Daily+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Daily+Convenience.swift"; sourceTree = "<group>"; };
+		61BA8F5A257CE3AB00022F3D /* ActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
+		61BA8F5D257CE3BA00022F3D /* DailyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewController.swift; sourceTree = "<group>"; };
+		61BA8F60257CE3D400022F3D /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +74,19 @@
 			children = (
 				61BA8E9F2575865400022F3D /* AppDelegate.swift */,
 				61BA8EA12575865400022F3D /* SceneDelegate.swift */,
-				61BA8EA32575865400022F3D /* ViewController.swift */,
 				61BA8EA52575865400022F3D /* Main.storyboard */,
 				61BA8EA82575865700022F3D /* Assets.xcassets */,
 				61BA8EAA2575865700022F3D /* LaunchScreen.storyboard */,
 				61BA8EAD2575865700022F3D /* Info.plist */,
+				61BA8F41257CDAA000022F3D /* Track.xcdatamodeld */,
+				61BA8F45257CDB3400022F3D /* CoreDataStack.swift */,
+				61BA8F48257CDB6800022F3D /* ActivityRepresentation.swift */,
+				61BA8F4B257CDB7500022F3D /* DailyRepresentation.swift */,
+				61BA8F4E257CDBE200022F3D /* Activity+Convenience.swift */,
+				61BA8F51257CDBF100022F3D /* Daily+Convenience.swift */,
+				61BA8F5A257CE3AB00022F3D /* ActivityTableViewController.swift */,
+				61BA8F5D257CE3BA00022F3D /* DailyTableViewController.swift */,
+				61BA8F60257CE3D400022F3D /* NotesViewController.swift */,
 			);
 			path = TimeTrack;
 			sourceTree = "<group>";
@@ -137,9 +161,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61BA8EA42575865400022F3D /* ViewController.swift in Sources */,
+				61BA8F46257CDB3400022F3D /* CoreDataStack.swift in Sources */,
+				61BA8F52257CDBF100022F3D /* Daily+Convenience.swift in Sources */,
+				61BA8F5E257CE3BA00022F3D /* DailyTableViewController.swift in Sources */,
+				61BA8F4C257CDB7500022F3D /* DailyRepresentation.swift in Sources */,
+				61BA8F4F257CDBE200022F3D /* Activity+Convenience.swift in Sources */,
 				61BA8EA02575865400022F3D /* AppDelegate.swift in Sources */,
+				61BA8F49257CDB6800022F3D /* ActivityRepresentation.swift in Sources */,
 				61BA8EA22575865400022F3D /* SceneDelegate.swift in Sources */,
+				61BA8F5B257CE3AB00022F3D /* ActivityTableViewController.swift in Sources */,
+				61BA8F61257CE3D400022F3D /* NotesViewController.swift in Sources */,
+				61BA8F43257CDAA000022F3D /* Track.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +373,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61BA8F41257CDAA000022F3D /* Track.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61BA8F42257CDAA000022F3D /* Track.xcdatamodel */,
+			);
+			currentVersion = 61BA8F42257CDAA000022F3D /* Track.xcdatamodel */;
+			path = Track.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 61BA8E942575865400022F3D /* Project object */;
 }

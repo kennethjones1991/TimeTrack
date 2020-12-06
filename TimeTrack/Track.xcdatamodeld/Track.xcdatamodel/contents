@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activity" representedClassName="Activity" syncable="YES" codeGenerationType="class">
+        <attribute name="activity" attributeType="String"/>
+    </entity>
+    <entity name="Daily" representedClassName="Daily" syncable="YES" codeGenerationType="class">
+        <attribute name="action" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="time" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="-54" positionY="-9" width="128" height="44"/>
+        <element name="Daily" positionX="-36" positionY="18" width="128" height="74"/>
+    </elements>
+</model>
